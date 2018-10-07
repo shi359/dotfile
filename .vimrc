@@ -35,7 +35,7 @@ autocmd bufenter * if (winnr("$")==1 && exists("b:NERDTree")&&b:NERDTree.isTabTr
 autocmd VimEnter * wincmd p
 
 " Plugin Setting
-let g:molokai_original = 1
+let g:monokai_original = 1
 let g:airline_theme='wombat'
 let g:airline_powerline_fonts = 1 " Basic config for airline
 let g:airline#extensions#tabline#enabled = 1
@@ -56,7 +56,7 @@ let g:airline#extensions#tabline#buffer_idx_format = {
     \}
 
 " Colour
-colorscheme molokai
+colorscheme monokai
 " Tab
 set expandtab
 set shiftwidth=4
