@@ -24,6 +24,7 @@ set backspace=start,eol,indent
 set cursorline
 set encoding=utf-8
 set number
+set hlsearch
 set smartindent
 set laststatus=2
 set guifont=Inconsolata\ for\ Powerline\ 20
