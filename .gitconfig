@@ -1,0 +1,15 @@
+[merge]
+	tool = vimdiff
+[user]
+	name = Janet Shi
+	email = janet.shi@shopee.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+    code-changes = "!git log --format=format: --name-only | egrep -v '^$' | sort | uniq -c | sort -rg | head -10"
+    cc = "!git code-changes"
